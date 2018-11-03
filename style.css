@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
+}
+
+.container > div, .container > textarea {
+  flex: 45% 0;
+  border: 1px solid black;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+
+#test {
+  height: calc(100%);
+  width: 100%;
+  resize: none;
+  margin: 0px;
+}
